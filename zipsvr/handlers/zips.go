@@ -2,10 +2,9 @@ package handlers
 
 import (
 	"encoding/json"
+	"info344-in-class/zipsvr/models"
 	"net/http"
 	"strings"
-
-	"../models"
 )
 
 type CityHandler struct {

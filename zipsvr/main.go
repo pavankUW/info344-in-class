@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	"https://github.com/pavankUW/info344-in-class/zipsvr/models"
-	"https://github.com/pavankUW/info344-in-class/zipsvr/handlers"
+	"github.com/pavankUW/info344-in-class/zipsvr/handlers"
+	"github.com/pavankUW/info344-in-class/zipsvr/models"
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
