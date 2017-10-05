@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pavankUW/info344-in-class/zipsvr/handlers"
-	"github.com/pavankUW/info344-in-class/zipsvr/models"
+	"info344-in-class/zipsvr/handlers"
+	"info344-in-class/zipsvr/models"
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
@@ -55,7 +55,7 @@ func main() {
 		PathPrefix: "/zips/",
 	}
 
-	mux.Handle("/zips", cityHandler)
+	mux.Handle("/zips/", cityHandler)
 
 	fmt.Printf("server is listening at http://%s\n", addr)
 	log.Fatal(http.ListenAndServe(addr, mux))

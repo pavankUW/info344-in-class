@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pavankUW/info344-in-class/zipsvr/models"
+	"info344-in-class/zipsvr/models"
 )
 
 type CityHandler struct {
