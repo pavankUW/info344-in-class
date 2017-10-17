@@ -20,4 +20,5 @@ npm-debug.log
 # MacOS files
 .DS_Store
 
-tls
+# Private Key 
+privkey.pem
